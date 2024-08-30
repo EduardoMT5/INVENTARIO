@@ -25,10 +25,14 @@
                 include "./vistas/".$_GET['vista'].".php";
 
                 include "./inc/script.php";
+                
+                
+            
 
             }else{
                 if($_GET['vista']=="login"){
                     include "./vistas/login.php";
+                    
                 }else{
                     include "./vistas/404.php";
                 }

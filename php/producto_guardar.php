@@ -227,4 +227,4 @@
             </div>
         ';
     }
-    $guardar_producto=null;
+    $guardar_producto=null; 
